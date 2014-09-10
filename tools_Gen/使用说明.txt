@@ -1,0 +1,5 @@
+配套使用：Gen目录放到游戏主目录，或者把Gen里的所有东西放到位于游戏主目录的dataeditor（圆神的卡库编辑器）所在目录
+
+单独使用：必要条件：执行目录有sqlite3.dll,System.Data.SQLite.dll，其上一层目录有cards.cdb
+
+生成卡图：在执行目录创建pico和picn目录，在pico目录放入对应密码的128*128规格的jpg图片，运行ImgGen.exe，即可在picn目录内生成卡图。
